@@ -1,0 +1,396 @@
+/* import fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: 'Raleway';
+    background-color: #f5f8ff;
+}
+
+/* global CSS */
+* {
+    margin: 0;
+    padding: 0;
+}
+input:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+.container {
+    max-width: 1140px;
+    margin: 0px auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 700;
+    color: #252432;
+    font-family: 'Raleway';
+}
+
+a {
+    text-decoration: none;
+}
+
+.boxed-btn {
+    background-color: #4e47ff;
+    display: inline-block;
+    color: #fff;
+    font-family: 'Raleway';
+    font-weight: 700;
+    padding: 12px 36px;
+    border-radius: 10px;
+    text-transform: capitalize;
+    transition: all 0.3s ease-in-out;
+}
+
+.boxed-btn:hover {
+    background-color: #f1c30e;
+    color: #333;
+}
+
+.bg-white {
+    background-color: #fff;
+}
+
+.text-center {
+    text-align: center;
+}
+
+/* Header start */
+.header-section {
+    background-image: url('./Assets/Hero-bg.png');
+    padding-bottom: 152px;
+}
+
+.logo-btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.header-logo h3 a {
+    display: inline-block;
+    font-size: 34px;
+    text-transform: uppercase;
+    font-family: 'inter';
+    font-weight: 900;
+    line-height: 150%;
+    color: #4e47ff;
+    transition: all 0.3s ease-in-out;
+}
+
+.header-logo h3 a:hover,
+.footer-logo a:hover {
+    color: #f1c30e;
+}
+
+.hero-text {
+    font-size: 65px;
+    font-family: 'Raleway';
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 37px;
+}
+
+.hero-area {
+    padding: 0 168px;
+    padding-top: 168px;
+    text-align: center;
+}
+/* Header end */
+
+/* Action start */
+.action-area {
+    padding: 116px 0;
+}
+
+.action-content h4 {
+    text-transform: capitalize;
+    font-size: 42px;
+    font-style: normal;
+    line-height: normal;
+    margin-bottom: 23px;
+}
+
+.action-content h4 span {
+    text-transform: lowercase;
+}
+
+.action-content p {
+    color: #25243280;
+    line-height: 30px;
+    font-size: 24px;
+}
+
+.action-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.action-content {
+    width: 517px;
+}
+
+.action-img img {
+    width: 403px;
+    height: 328px;
+    border-radius: 48px;
+}
+
+.action-area .boxed-btn {
+    margin-top: 23px;
+}
+/* Action end */
+
+/* Productive users start */
+.productive-users-wrapper {
+    background: #e5e7ff;
+    border-radius: 24px;
+    text-align: center;
+    padding: 50px;
+}
+
+.productive-users-wrapper h3 {
+    font-size: 38px;
+    margin-bottom: 40px;
+}
+
+.productive-flex {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.productive-flex-box h1 {
+    font-size: 80px;
+    font-family: 'Inter';
+    color: #4e47ff;
+    text-transform: uppercase;
+}
+
+.productive-users {
+    padding-bottom: 137px;
+}
+
+.productive-flex-box p {
+    text-transform: capitalize;
+    color: #00000080;
+}
+/* Productive users end */
+
+/* Review area start */
+.review-section {
+    padding-bottom: 137px;
+}
+.review-section h2 {
+    text-align: center;
+    font-size: 42px;
+    margin-bottom: 50px;
+}
+
+.review-box-wrapper {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.single-review-box {
+    background: #fff;
+    border-radius: 14px;
+    padding: 24px;
+}
+
+.flex-icon {
+    margin-bottom: 24px;
+}
+
+.single-review-box h3 {
+    font-size: 24px;
+    font-family: 'Inter';
+    margin-bottom: 8px;
+}
+
+.single-review-box p {
+    font-family: 'Inter';
+    color: #1e1e1e;
+}
+
+.review-content {
+    margin-bottom: 24px;
+}
+
+.review-profile {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.review-profile img {
+    border-radius: 50%;
+}
+
+.review-profile img {
+    border-radius: 50%;
+}
+
+.reviewer-details h4 {
+    color: #757575;
+    font-family: 'Inter';
+}
+
+.reviewer-details p {
+    color: #b3b3b3;
+}
+/* Review area end */
+
+/* Focus section start */
+.focus-content h2 {
+    font-size: 50px;
+    line-height: 120%;
+    margin-bottom: 20px;
+}
+
+.focus-wrapper {
+    padding: 71px 0;
+}
+
+.focus-content .boxed-btn {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.focus-content p {
+    color: #00000080;
+    line-height: 140%;
+    font-family: 'Inter';
+}
+
+.focus-banner {
+    border-radius: 48px;
+}
+/* Focus section end */
+
+/* Newsletter start */
+.newsletter-section {
+    padding: 71px 0;
+}
+
+.newsletter-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.newsletter-wrapper h2 {
+    font-size: 97px;
+    line-height: 120%;
+}
+
+.newsletter-form .form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.newsletter-form .form-group label {
+    font-weight: 500;
+    font-family: 'Inter';
+    line-height: 120%;
+    font-size: 18px;
+    text-transform: capitalize;
+}
+
+.newsletter-form .form-group input,
+.newsletter-form .form-group textarea {
+    width: 433px;
+    height: 30px;
+    padding: 20px 32px;
+    border-radius: 10px;
+    border: 1px solid #d6dded;
+}
+
+.newsletter-form .form-group textarea {
+    height: 95px;
+}
+
+.newsletter-form .form-group input::placeholder,
+.newsletter-form .form-group textarea::placeholder {
+    font-size: 20px;
+    font-family: 'Inter';
+    color: #00000080;
+}
+
+.newsletter-form .form-group {
+    margin-bottom: 20px;
+}
+
+.newsletter-form button {
+    background: #4e47ff;
+    border: none;
+    color: white;
+    width: 100%;
+    font-weight: 700;
+    line-height: 150%;
+    font-family: 'Raleway';
+    padding: 19px 0;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.newsletter-form button:hover {
+    background: #f1c30e;
+    color: #333;
+}
+/* Newsletter end */
+
+/* footer start */
+.footer-section {
+    padding: 104px 0;
+    font-family: 'inter';
+}
+
+.footer-logo a {
+    text-transform: uppercase;
+    color: #4e47ff;
+    font-weight: 900;
+    font-size: 100px;
+    margin-bottom: 8px;
+}
+
+.footer-wrapper {
+    width: 531px;
+    margin: 0 auto;
+}
+
+.footer-desc {
+    color: #8987a1;
+    line-height: 150%;
+}
+
+.footer-menu {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+    text-transform: capitalize;
+    margin-top: 20px;
+}
+
+.footer-menu li a {
+    color: #8987a1;
+    transition: all 0.3s ease-in-out;
+}
+
+.footer-menu li a:hover {
+    color: #4e47ff;
+}
+/* footer end */
